@@ -24,25 +24,25 @@ function setup() {
    }
 
 
-    for (var j = random(1,5)*10 +20; j <=width-20; j=j+50) 
+    for (var j = random(1,5)*10 +20; j <=width-10; j=j+50) 
     {
     
        plinkos.push(new Plinko(j,75));
     }
 
-    for (var j = random(1,3)*15 +10; j <=width-30; j=j+50) 
+    for (var j = random(1,3)*15 +10; j <=width-15; j=j+50) 
     {
     
        plinkos.push(new Plinko(j,175));
     }
 
-     for (var j = random(2,4)*10 +15; j <=width-20; j=j+50) 
+     for (var j = random(2,4)*10 +15; j <=width-13; j=j+50) 
     {
     
        plinkos.push(new Plinko(j,275));
     }
 
-     for (var j = random(2,5)*5 +15; j <=width-30; j=j+50) 
+     for (var j = random(2,5)*5 +15; j <=width-8; j=j+50) 
     {
     
        plinkos.push(new Plinko(j,375));
