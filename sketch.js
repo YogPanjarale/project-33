@@ -114,7 +114,7 @@ gameState = "play"}
    }
 }
 
-var scoreList =[100,200,300,700,400,100,300,200,300,1000]
+var scoreList =[100,250,300,350,400,1000,300,200,300,100]
 function index(x){
 
     return ((x -(x%80))/80)
