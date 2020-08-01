@@ -122,14 +122,14 @@ function index(x){
 function mousePressed(){
   if(particle == null && gameState != "end")
   {
-    if(mouseX>20&&mouseX<780){
+    if(mouseX>40&&mouseX<760){
     particle =new Particle(mouseX,10,10)
     }
-    else if (mouseX<20) {
-      particle =new Particle(30,10,10)
+    else if (mouseX<40) {
+      particle =new Particle(50,10,10)
     } 
-    else if (mouseX>780) {
-      particle =new Particle(770,10,10)
+    else if (mouseX>760) {
+      particle =new Particle(750,10,10)
     } 
     gameState = "falling";
   }
